@@ -40,7 +40,6 @@ export const DeleteProduct = async(req, res) => {
     }
 
 }
-
 export const UpdateProduct = async(req, res) => {
     const {id} = req.params;
     const product = req.body;
