@@ -42,7 +42,7 @@ function CreatePage() {
   return (
     <Container maxW={"container.sm"}>
       <VStack spacing={8}>
-      <Heading as={"h1"} size={"2xl"} textAlign={"center"} color={"grey.500"} mb={8}>
+      <Heading as={"h1"} size={"2xl"} textAlign={"center"} color={"grey.500"} mb={8} mt={20}>
         Create New Product
       </Heading>
 
